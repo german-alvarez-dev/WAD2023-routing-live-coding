@@ -1,0 +1,45 @@
+#myMap {
+    height: 100vh;
+    background-color: red;
+}
+
+#destinationInput,
+#generateRoute,
+#calculateRoute {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 6px -6px 6px rgba(0, 0, 0, .4);
+    left: 10px;
+}
+
+#destinationInput,
+#calculateRoute {
+    font-size: 1.2em;
+    width: 450px;
+    bottom: 10px;
+    height: 35px;
+    border: 0;
+}
+
+#generateRoute {
+    width: 50px;
+    bottom: 260px;
+    height: 38px;
+    left: 469px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#calculateRoute {
+    position: fixed;
+    bottom: 10px;
+    left: 470px;
+    background-color: white;
+    color: black;
+    width: 160px;
+    font-size: .9em;
+    border: 1px solid #ccc;
+}
